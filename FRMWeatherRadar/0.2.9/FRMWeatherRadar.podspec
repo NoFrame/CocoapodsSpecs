@@ -24,6 +24,5 @@ s.dependency 'SDWebImage'
 s.dependency 'FRMLocalizedString'
 s.dependency 'FRMMeteoRadarScraper'
 s.dependency 'FRMDropdown'
-s.dependency 'GoogleMaps', '~> 1.13.0'
 
 end
