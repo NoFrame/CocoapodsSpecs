@@ -22,7 +22,8 @@ s.dependency 'AFNetworking'
 s.dependency 'MBProgressHUD', '~> 0.9.2'
 s.dependency 'SDWebImage'
 s.dependency 'FRMLocalizedString'
-s.dependency 'FRMMeteoRadarScraper'
 s.dependency 'FRMDropdown'
+s.dependency 'XMLDictionary'
+s.dependency 'FRMWeatherStations'
 
 end
