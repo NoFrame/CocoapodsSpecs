@@ -15,5 +15,5 @@ This is built on top of the SDWebImage library, for use with multiple image cach
   s.ios.deployment_target = '8.1'
 
   s.source_files = 'FRMImageCacheManager/Classes/**/*'
-  s.dependency 'SDWebImage', '= 4.0.0-beta2'
+  s.dependency 'SDWebImage', '= 4.0.0-beta2-farmis-0.2'
 end
