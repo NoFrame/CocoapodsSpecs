@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FRMStocks'
-  s.version          = '0.3.3'
+  s.version          = '0.3.4'
   s.summary          = 'Farmis stocks'
 
   s.description      = <<-DESC
