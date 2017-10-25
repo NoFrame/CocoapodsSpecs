@@ -23,7 +23,7 @@ Library used to show farmis stocks.
   s.dependency 'FRMLocalizedString'
   s.dependency 'FRMBase'
   #other
-  s.dependency 'Charts', '= 3.0'
+  s.dependency 'Charts', '= 3.0.4'
 #s.vendored_frameworks = 'FRMStocks/Frameworks/Charts.framework'
 
 s.xcconfig = {
