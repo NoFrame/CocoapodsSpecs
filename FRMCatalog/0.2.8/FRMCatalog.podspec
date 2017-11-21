@@ -31,8 +31,8 @@ s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
 s.dependency 'MBProgressHUD', '= 0.9.2'
 s.dependency 'MWPhotoBrowser', '~> 2.1.9.5'
 s.dependency 'ICTextView', '~> 2.0.1'
-s.dependency 'Fabric'
-s.dependency 'Crashlytics'
+#s.dependency 'Fabric'
+#s.dependency 'Crashlytics'
 s.dependency 'Firebase/Core'
 
 s.xcconfig = {
