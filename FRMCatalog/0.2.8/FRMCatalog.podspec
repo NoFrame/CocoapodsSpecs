@@ -33,7 +33,7 @@ s.dependency 'MWPhotoBrowser', '~> 2.1.9.5'
 s.dependency 'ICTextView', '~> 2.0.1'
 #s.dependency 'Fabric'
 #s.dependency 'Crashlytics'
-s.dependency 'Firebase/Core'
+#s.dependency 'Firebase/Core'
 
 s.xcconfig = {
 "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES"
