@@ -11,13 +11,13 @@ Library for Farmis/Agronomist catalog.
   s.author           = { 'Martynas' => 'martynas.kazemekas@gmail.com' }
   s.source           = { :git => 'https://bitbucket.org/noframe/frmcatalog.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.1'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'FRMCatalog/Classes/**/*'
   s.resources = 'FRMCatalog/Assets/**/*.{storyboard,xib,xcassets,xcdatamodeld}'
 
 #FRM
-s.dependency 'FRMNotificationLib'
+s.dependency 'FRMNotificationLib' , '~> 0.1.2'
 s.dependency 'FRMCoreDataStack'
 s.dependency 'FRMLocalizedString'
 s.dependency 'FRMCategories'
