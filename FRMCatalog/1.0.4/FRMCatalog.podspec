@@ -17,7 +17,7 @@ Library for Farmis/Agronomist catalog.
   s.resources = 'FRMCatalog/Assets/**/*.{storyboard,xib,xcassets,xcdatamodeld}'
 
 #FRM
-s.dependency 'FRMNotificationLib'
+s.dependency 'FRMNotificationLib' , '~> 0.1.2'
 s.dependency 'FRMCoreDataStack'
 s.dependency 'FRMLocalizedString'
 s.dependency 'FRMCategories'
