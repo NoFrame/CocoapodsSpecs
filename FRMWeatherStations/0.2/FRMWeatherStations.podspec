@@ -12,7 +12,7 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Vilmantas' => 'vilm1s.vb@gmail.com' }
 s.source           = { :git => 'https://bitbucket.org/noframe/frmweatherstations.git', :tag => s.version.to_s }
 
-s.ios.deployment_target = '8.1'
+s.ios.deployment_target = '9.3'
 
 s.source_files = 'FRMWeatherStations/Classes/**/*'
 s.resources = 'FRMWeatherStations/Assets/*.{xib,xcdatamodeld}'

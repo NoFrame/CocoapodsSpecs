@@ -11,7 +11,7 @@ Workaround library for GoogleMaps so that all the projects and libraries import 
   s.author           = { 'Vilmantas' => 'vilm1s.vb@gmail.com' }
   s.source           = { :git => 'https://bitbucket.org/noframe/frmgooglemaps.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.1'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'FRMGoogleMaps/Classes/**/*'
   

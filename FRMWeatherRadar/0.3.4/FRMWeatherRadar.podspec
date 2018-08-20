@@ -13,7 +13,7 @@ All data comes from meteo.lt, through farmis server.
   s.author           = { 'Vilmantas' => 'vilm1s.vb@gmail.com' }
   s.source           = { :git => 'https://bitbucket.org/noframe/frmweatherradar.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.1'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'FRMWeatherRadar/Classes/**/*'
   s.resources = 'FRMWeatherRadar/**/*.{xib,xcassets}'
@@ -25,8 +25,9 @@ All data comes from meteo.lt, through farmis server.
   s.dependency 'FRMDropdown'
   s.dependency 'XMLDictionary'
   s.dependency 'FRMWeatherStations'
-  s.dependency 'FRMGoogleMaps'
   s.dependency 'FRMWildcardGestureRecognizer'
+
+  s.dependency 'FRMGoogleMaps'
 
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/FRMGoogleMaps/FRMGoogleMaps/Frameworks' }
 
