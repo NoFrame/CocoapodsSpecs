@@ -14,7 +14,7 @@ The supplied file is sent to the backend to be parsed, then displayed on the map
     s.author           = { 'Vilmantas' => 'vilm1s.vb@gmail.com' }
     s.source           = { :git => 'https://bitbucket.org/noframe/frmshapeimporter/', :tag => s.version.to_s }
 
-    s.ios.deployment_target = '8.1'
+    s.ios.deployment_target = '9.3'
 
     s.source_files = 'FRMShapeImporter/Classes/**/*.{h,m}'
 

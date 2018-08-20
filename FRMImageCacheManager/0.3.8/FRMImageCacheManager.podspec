@@ -12,7 +12,7 @@ This is built on top of the SDWebImage library, for use with multiple image cach
   s.author           = { 'Vilmantas' => 'vilm1s.vb@gmail.com' }
   s.source           = { :git => 'https://github.com/William500/FRMImageCacheManager.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.1'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'FRMImageCacheManager/Classes/**/*'
   s.dependency 'SDWebImage', '~> 4.0.0-beta2-farmis-0.3'
