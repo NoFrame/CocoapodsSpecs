@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.3'
 
   s.source_files = 'FRMCatalogCore/Classes/**/*'
-  s.resources = 'FRMCatalog/Assets/**/*.{xcdatamodeld}'
+  s.resources = 'FRMCatalogCore/Assets/**/*.{storyboard,xib,xcassets,xcdatamodeld}'
   
   s.dependency 'FRMCoreDataStack', '> 0.3.0'
   s.dependency 'FRMReachability'
