@@ -1,4 +1,4 @@
-i#
+#
 # Be sure to run `pod lib lint FRMNotificationLib.podspec' to ensure this is a
 # valid spec before submitting.
 #
